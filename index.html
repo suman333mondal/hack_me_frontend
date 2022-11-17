@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html data-kantu="1" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hack Me</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link href="Hack_me_files/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <div class="contact-us d-flex justify-content-center align-items-center" >
+      <div class="contact d-flex flex-column justify-content-center align-items-center">
+        <div class = "header_part d-flex justify-content-center align-items-center" >
+            <img src="./Hack_me_files/hacker(2).png" width = "100" height = "100" alt="" >
+            <div class="header_text">
+                <p>Try To Hack Me</p>
+            </div>
+        </div>
+
+        
+        <div class="form-container">
+          <form action="/message" method="POST">
+            <input class="form-control" type="text" name="name" placeholder="Your Name" required />
+            <textarea class="form-control" name="message" placeholder="Write Your message here" required ></textarea>
+            <input class="common-button" type="submit" />
+          </form>
+        </div>
+        <p class = "linux_" >"The quieter you become , the more you are able to hear."</p>
+      </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="./Hack_me_files/particles.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'Hack_me_files/particlesjs-config.json', function() {
+            console.log('Hello World');
+        });
+    </script>
+  </body>
+</html>
